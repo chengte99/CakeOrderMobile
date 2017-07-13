@@ -1,0 +1,6 @@
+framework module Pods_CakeOrderMobile {
+  umbrella header "Pods-CakeOrderMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

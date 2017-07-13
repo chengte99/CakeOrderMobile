@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7D833E149D7AF41881F20A2 /* Pods_CakeOrderMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63604395980DCD24FC1D3C2 /* Pods_CakeOrderMobile.framework */; };
+		DD0016FC1F0A5CBB00DD6A99 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0016FB1F0A5CBB00DD6A99 /* OrderViewController.swift */; };
+		DD0016FE1F0A5E7700DD6A99 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0016FD1F0A5E7700DD6A99 /* OrderTableViewCell.swift */; };
+		DD0017001F0B654100DD6A99 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0016FF1F0B654100DD6A99 /* AboutViewController.swift */; };
+		DD0017021F0B6A4100DD6A99 /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0017011F0B6A4100DD6A99 /* AboutTableViewCell.swift */; };
 		DD2EE5D51EEFC7790032D2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5D41EEFC7790032D2DD /* AppDelegate.swift */; };
-		DD2EE5D71EEFC7790032D2DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5D61EEFC7790032D2DD /* ViewController.swift */; };
 		DD2EE5DA1EEFC7790032D2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2EE5D81EEFC7790032D2DD /* Main.storyboard */; };
 		DD2EE5DC1EEFC7790032D2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2EE5DB1EEFC7790032D2DD /* Assets.xcassets */; };
 		DD2EE5DF1EEFC7790032D2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2EE5DD1EEFC7790032D2DD /* LaunchScreen.storyboard */; };
+		DD2EE5E91EEFC94D0032D2DD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5E81EEFC94D0032D2DD /* SWRevealViewController.m */; };
+		DD2EE5EB1EEFCE940032D2DD /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5EA1EEFCE940032D2DD /* MealViewController.swift */; };
+		DD2EE5ED1EEFD41C0032D2DD /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5EC1EEFD41C0032D2DD /* SideMenuViewController.swift */; };
+		DD2EE5F11EEFDB4B0032D2DD /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5F01EEFDB4B0032D2DD /* TrayViewController.swift */; };
+		DD2EE5F51EF11A910032D2DD /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5F41EF11A910032D2DD /* MealDetailsViewController.swift */; };
+		DD2EE5F71EF11AAF0032D2DD /* TraySendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5F61EF11AAF0032D2DD /* TraySendViewController.swift */; };
+		DD2EE5FD1EF122950032D2DD /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5FC1EF122950032D2DD /* FBManager.swift */; };
+		DD2EE5FF1EF123810032D2DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE5FE1EF123810032D2DD /* LoginViewController.swift */; };
+		DD2EE6021EF12ABF0032D2DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE6011EF12ABF0032D2DD /* User.swift */; };
+		DD2EE6051EF134520032D2DD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE6041EF134520032D2DD /* Reachability.m */; };
+		DD2EE6081EF13C300032D2DD /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE6071EF13C300032D2DD /* APIManager.swift */; };
+		DD2EE60A1EF9080C0032D2DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE6091EF9080C0032D2DD /* Constants.swift */; };
+		DD2EE60C1EFA56E80032D2DD /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE60B1EFA56E80032D2DD /* Meal.swift */; };
+		DD2EE60E1EFA59000032D2DD /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE60D1EFA59000032D2DD /* MealTableViewCell.swift */; };
+		DD2EE6101EFBBA5C0032D2DD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE60F1EFBBA5C0032D2DD /* Helpers.swift */; };
+		DD2EE6121EFBC6890032D2DD /* TrayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE6111EFBC6890032D2DD /* TrayItem.swift */; };
+		DD2EE6141EFBDDB00032D2DD /* TrayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE6131EFBDDB00032D2DD /* TrayTableViewCell.swift */; };
+		DD6259761F04F15000017D00 /* TrayFinalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6259751F04F15000017D00 /* TrayFinalTableViewCell.swift */; };
+		DD82E16A1F16271200E95B83 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD82E1691F16271200E95B83 /* PopOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2553935FA37C924C35263955 /* Pods-CakeOrderMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeOrderMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-CakeOrderMobile/Pods-CakeOrderMobile.release.xcconfig"; sourceTree = "<group>"; };
+		A63604395980DCD24FC1D3C2 /* Pods_CakeOrderMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakeOrderMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8949FDF025E77B47DE096DA /* Pods-CakeOrderMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeOrderMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CakeOrderMobile/Pods-CakeOrderMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		DD0016FB1F0A5CBB00DD6A99 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		DD0016FD1F0A5E7700DD6A99 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		DD0016FF1F0B654100DD6A99 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DD0017011F0B6A4100DD6A99 /* AboutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
 		DD2EE5D11EEFC7790032D2DD /* CakeOrderMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeOrderMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2EE5D41EEFC7790032D2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD2EE5D61EEFC7790032D2DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD2EE5D91EEFC7790032D2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD2EE5DB1EEFC7790032D2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2EE5DE1EEFC7790032D2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2EE5E01EEFC7790032D2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2EE5E61EEFC94D0032D2DD /* CakeOrderMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CakeOrderMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD2EE5E71EEFC94D0032D2DD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		DD2EE5E81EEFC94D0032D2DD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		DD2EE5EA1EEFCE940032D2DD /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		DD2EE5EC1EEFD41C0032D2DD /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		DD2EE5F01EEFDB4B0032D2DD /* TrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
+		DD2EE5F41EF11A910032D2DD /* MealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
+		DD2EE5F61EF11AAF0032D2DD /* TraySendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraySendViewController.swift; sourceTree = "<group>"; };
+		DD2EE5FA1EF11F920032D2DD /* CakeOrderMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CakeOrderMobile.entitlements; sourceTree = "<group>"; };
+		DD2EE5FC1EF122950032D2DD /* FBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
+		DD2EE5FE1EF123810032D2DD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD2EE6011EF12ABF0032D2DD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DD2EE6031EF134520032D2DD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../../Downloads/Swift/Reachability/Reachability/Reachability.h; sourceTree = "<group>"; };
+		DD2EE6041EF134520032D2DD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../../Downloads/Swift/Reachability/Reachability/Reachability.m; sourceTree = "<group>"; };
+		DD2EE6071EF13C300032D2DD /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DD2EE6091EF9080C0032D2DD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DD2EE60B1EFA56E80032D2DD /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		DD2EE60D1EFA59000032D2DD /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		DD2EE60F1EFBBA5C0032D2DD /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		DD2EE6111EFBC6890032D2DD /* TrayItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayItem.swift; sourceTree = "<group>"; };
+		DD2EE6131EFBDDB00032D2DD /* TrayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayTableViewCell.swift; sourceTree = "<group>"; };
+		DD6259751F04F15000017D00 /* TrayFinalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayFinalTableViewCell.swift; sourceTree = "<group>"; };
+		DD82E1691F16271200E95B83 /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D833E149D7AF41881F20A2 /* Pods_CakeOrderMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCE35DA7600D05FF7D43718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63604395980DCD24FC1D3C2 /* Pods_CakeOrderMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B48575E7CF55B1F766A4744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8949FDF025E77B47DE096DA /* Pods-CakeOrderMobile.debug.xcconfig */,
+				2553935FA37C924C35263955 /* Pods-CakeOrderMobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD2EE5C81EEFC7790032D2DD = {
 			isa = PBXGroup;
 			children = (
 				DD2EE5D31EEFC7790032D2DD /* CakeOrderMobile */,
 				DD2EE5D21EEFC7790032D2DD /* Products */,
+				9B48575E7CF55B1F766A4744 /* Pods */,
+				0CCE35DA7600D05FF7D43718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +126,80 @@
 		DD2EE5D31EEFC7790032D2DD /* CakeOrderMobile */ = {
 			isa = PBXGroup;
 			children = (
+				DD2EE5FA1EF11F920032D2DD /* CakeOrderMobile.entitlements */,
+				DD2EE6061EF13BDF0032D2DD /* View */,
+				DD2EE6001EF12AAD0032D2DD /* Model */,
+				DD2EE5FB1EF1228A0032D2DD /* Manager */,
+				DD2EE5EF1EEFDB190032D2DD /* Controller */,
+				DD2EE5EE1EEFDB090032D2DD /* Lib */,
 				DD2EE5D41EEFC7790032D2DD /* AppDelegate.swift */,
-				DD2EE5D61EEFC7790032D2DD /* ViewController.swift */,
 				DD2EE5D81EEFC7790032D2DD /* Main.storyboard */,
 				DD2EE5DB1EEFC7790032D2DD /* Assets.xcassets */,
 				DD2EE5DD1EEFC7790032D2DD /* LaunchScreen.storyboard */,
 				DD2EE5E01EEFC7790032D2DD /* Info.plist */,
 			);
 			path = CakeOrderMobile;
+			sourceTree = "<group>";
+		};
+		DD2EE5EE1EEFDB090032D2DD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD2EE6031EF134520032D2DD /* Reachability.h */,
+				DD2EE6041EF134520032D2DD /* Reachability.m */,
+				DD2EE5E71EEFC94D0032D2DD /* SWRevealViewController.h */,
+				DD2EE5E81EEFC94D0032D2DD /* SWRevealViewController.m */,
+				DD2EE5E61EEFC94D0032D2DD /* CakeOrderMobile-Bridging-Header.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		DD2EE5EF1EEFDB190032D2DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD2EE5FE1EF123810032D2DD /* LoginViewController.swift */,
+				DD2EE5EC1EEFD41C0032D2DD /* SideMenuViewController.swift */,
+				DD2EE5EA1EEFCE940032D2DD /* MealViewController.swift */,
+				DD2EE5F41EF11A910032D2DD /* MealDetailsViewController.swift */,
+				DD2EE5F01EEFDB4B0032D2DD /* TrayViewController.swift */,
+				DD2EE5F61EF11AAF0032D2DD /* TraySendViewController.swift */,
+				DD0016FB1F0A5CBB00DD6A99 /* OrderViewController.swift */,
+				DD0016FF1F0B654100DD6A99 /* AboutViewController.swift */,
+				DD82E1691F16271200E95B83 /* PopOverViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DD2EE5FB1EF1228A0032D2DD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DD2EE5FC1EF122950032D2DD /* FBManager.swift */,
+				DD2EE6071EF13C300032D2DD /* APIManager.swift */,
+				DD2EE6091EF9080C0032D2DD /* Constants.swift */,
+				DD2EE60F1EFBBA5C0032D2DD /* Helpers.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		DD2EE6001EF12AAD0032D2DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD2EE6011EF12ABF0032D2DD /* User.swift */,
+				DD2EE60B1EFA56E80032D2DD /* Meal.swift */,
+				DD2EE6111EFBC6890032D2DD /* TrayItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DD2EE6061EF13BDF0032D2DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD2EE60D1EFA59000032D2DD /* MealTableViewCell.swift */,
+				DD2EE6131EFBDDB00032D2DD /* TrayTableViewCell.swift */,
+				DD6259751F04F15000017D00 /* TrayFinalTableViewCell.swift */,
+				DD0016FD1F0A5E7700DD6A99 /* OrderTableViewCell.swift */,
+				DD0017011F0B6A4100DD6A99 /* AboutTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD2EE5E31EEFC7790032D2DD /* Build configuration list for PBXNativeTarget "CakeOrderMobile" */;
 			buildPhases = (
+				48C1E895390B173A991D1C4D /* [CP] Check Pods Manifest.lock */,
 				DD2EE5CD1EEFC7790032D2DD /* Sources */,
 				DD2EE5CE1EEFC7790032D2DD /* Frameworks */,
 				DD2EE5CF1EEFC7790032D2DD /* Resources */,
+				19DB3A3D4AA296C4F7BBF477 /* [CP] Embed Pods Frameworks */,
+				54D213701BBF0D8348AC3606 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,7 +238,13 @@
 					DD2EE5D01EEFC7790032D2DD = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = S4BK872249;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,13 +279,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19DB3A3D4AA296C4F7BBF477 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CakeOrderMobile/Pods-CakeOrderMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C1E895390B173A991D1C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54D213701BBF0D8348AC3606 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CakeOrderMobile/Pods-CakeOrderMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD2EE5CD1EEFC7790032D2DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2EE5D71EEFC7790032D2DD /* ViewController.swift in Sources */,
+				DD2EE6051EF134520032D2DD /* Reachability.m in Sources */,
+				DD2EE5F51EF11A910032D2DD /* MealDetailsViewController.swift in Sources */,
+				DD0017001F0B654100DD6A99 /* AboutViewController.swift in Sources */,
+				DD2EE5EB1EEFCE940032D2DD /* MealViewController.swift in Sources */,
+				DD0016FE1F0A5E7700DD6A99 /* OrderTableViewCell.swift in Sources */,
+				DD2EE60E1EFA59000032D2DD /* MealTableViewCell.swift in Sources */,
 				DD2EE5D51EEFC7790032D2DD /* AppDelegate.swift in Sources */,
+				DD2EE5FD1EF122950032D2DD /* FBManager.swift in Sources */,
+				DD82E16A1F16271200E95B83 /* PopOverViewController.swift in Sources */,
+				DD2EE5ED1EEFD41C0032D2DD /* SideMenuViewController.swift in Sources */,
+				DD0017021F0B6A4100DD6A99 /* AboutTableViewCell.swift in Sources */,
+				DD2EE6101EFBBA5C0032D2DD /* Helpers.swift in Sources */,
+				DD2EE5F71EF11AAF0032D2DD /* TraySendViewController.swift in Sources */,
+				DD2EE6021EF12ABF0032D2DD /* User.swift in Sources */,
+				DD2EE5E91EEFC94D0032D2DD /* SWRevealViewController.m in Sources */,
+				DD0016FC1F0A5CBB00DD6A99 /* OrderViewController.swift in Sources */,
+				DD6259761F04F15000017D00 /* TrayFinalTableViewCell.swift in Sources */,
+				DD2EE60C1EFA56E80032D2DD /* Meal.swift in Sources */,
+				DD2EE6081EF13C300032D2DD /* APIManager.swift in Sources */,
+				DD2EE60A1EF9080C0032D2DD /* Constants.swift in Sources */,
+				DD2EE5F11EEFDB4B0032D2DD /* TrayViewController.swift in Sources */,
+				DD2EE6141EFBDDB00032D2DD /* TrayTableViewCell.swift in Sources */,
+				DD2EE6121EFBC6890032D2DD /* TrayItem.swift in Sources */,
+				DD2EE5FF1EF123810032D2DD /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,26 +478,37 @@
 		};
 		DD2EE5E41EEFC7790032D2DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8949FDF025E77B47DE096DA /* Pods-CakeOrderMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CakeOrderMobile/CakeOrderMobile.entitlements;
 				DEVELOPMENT_TEAM = S4BK872249;
 				INFOPLIST_FILE = CakeOrderMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letsgobuildapp.CakeOrderMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CakeOrderMobile/CakeOrderMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		DD2EE5E51EEFC7790032D2DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2553935FA37C924C35263955 /* Pods-CakeOrderMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CakeOrderMobile/CakeOrderMobile.entitlements;
 				DEVELOPMENT_TEAM = S4BK872249;
 				INFOPLIST_FILE = CakeOrderMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letsgobuildapp.CakeOrderMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CakeOrderMobile/CakeOrderMobile-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +532,7 @@
 				DD2EE5E51EEFC7790032D2DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
